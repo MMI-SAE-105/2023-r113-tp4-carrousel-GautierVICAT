@@ -3,9 +3,8 @@
 display height flex flex none margin 
 max-width width width
 */ 
-{
-box-sizing: border-box;
-}
+* {box-sizing: border-box;}
+
 img {
 height: 100%;
 max-width: auto;
@@ -28,27 +27,9 @@ scroll-snap-align: start;
 }
 La page doit maintenant avoir les écrans à l'horizontal et un ascenseurs de même.
     
-Scroll
-Ajouter sur le parent des écrans :
-    
-overflow-x: scroll; /* permet de scroller horizontalement */
-Tester les liens et le scroll.
-    
-scroll-behavior: smooth; /* animation de défilement */
-ester les liens, le scroll doit être animé (fluide).
-    
- snapp et aligment
-scroll-snap-type sur le parent
-scroll-snap-type: x mandatory; /* permet de scroller par blocs */
-scroll-snap-align sur les enfants
-scroll-snap-align: start; /* aligne les enfants par blocs */
-Tester le défilement horizontal : il doit se faire "par bloc/écran".
-    
-Placement des boutons avant/aprés
 .carrousel {
-position: relative;
+    position: relative;
 }
-    
 .carrousel_btn {
 position: absolute;
 top: 50%;
