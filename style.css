@@ -19,11 +19,12 @@ scroll-snap-type: mandatory;
     
 }
 .carrousel_ecran {
-/* largeur du parent pour chaque enfant */
-/* permet de garder toute la largeur du parent */
+width: 100%;
+scroll-snap-align: start;
 }
 .carrousel_ecran figure {
-/* enlève les marges par défaut */
+margin:none;
+scroll-snap-align: start;
 }
 La page doit maintenant avoir les écrans à l'horizontal et un ascenseurs de même.
     
