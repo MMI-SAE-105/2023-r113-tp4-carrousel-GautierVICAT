@@ -27,7 +27,7 @@ scroll-snap-align: start;
 }
 La page doit maintenant avoir les écrans à l'horizontal et un ascenseurs de même.
     
-.carrousel {
+.carrousel{
     position: relative;
 }
 .carrousel_btn {
