@@ -38,7 +38,7 @@ a:hover {
 li {
     list-style-type: none;
     display: inline-block;
-    margin: 40px;
+    margin: 10px;
 }
 img {
 height: 100%;
@@ -62,9 +62,7 @@ scroll-snap-align: start;
 }
 La page doit maintenant avoir les écrans à l'horizontal et un ascenseurs de même.
     
-.carrousel{
-    position: relative;
-}
+.carrousel {position: relative;}
 .carrousel_btn {
 position: absolute;
 top: 50%;
@@ -76,16 +74,24 @@ width: 2rem;
 height: 2rem;
 background: rgba(0,0,0,0.5);
 border-radius: 50%;
-border: none;
 display: grid;
 place-content: center;
 color: #fff;
 }
+.carrousel_btn:hover {
+    background: rgb(216,255,137);
+    color: black;
+    border-color: black;
+}
     
 .carrousel_btn-avant {
 left: 0;
+color: rgb(216,255,137);
+border-color: rgb(216,255,137);
 }
     
 .carrousel_btn-apres {
 right: 0;
+color: rgb(216,255,137);
+border-color: rgb(216,255,137);
 }
