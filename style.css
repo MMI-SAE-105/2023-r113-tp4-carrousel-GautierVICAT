@@ -109,3 +109,8 @@ background-color: rgb(216, 255, 137);
 text-decoration: none;
 font-weight: bold;
 }
+.titrepage{
+text-align: center;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-size: 300%;
+}
