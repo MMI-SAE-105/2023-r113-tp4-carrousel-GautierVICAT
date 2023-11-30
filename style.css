@@ -6,7 +6,7 @@ max-width width width
 * {box-sizing: border-box;}
 
 body {
-    background-color: black;
+    background-color: rgb(45, 45, 45);
     color: rgb(216,255,137);
     font-family: 'Courier New', Courier, monospace;
 }
@@ -103,4 +103,5 @@ border-color: rgb(216,255,137);
 figcaption {
 text-align: center;
 padding: 5px;
+font-weight: bold;
 }
