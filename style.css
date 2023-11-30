@@ -11,7 +11,7 @@ overflow: auto;
 }
 div::-webkit-scrollbar {
 width: 2px;
-height: 5px;  
+height: 9px;  
 }
 div::-webkit-scrollbar-thumb {
 background: rgb(216, 255, 137);
