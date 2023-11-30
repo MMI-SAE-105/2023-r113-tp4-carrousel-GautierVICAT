@@ -49,13 +49,26 @@ top: 50%;
 transform: translateY(-50%);
 width: 2rem;
 height: 2rem;
-background: rgba(0, 0, 0, 0.5);
+background: black;
 border-radius: 50%;
-border: none;
+border-color: rgb(216, 255, 137);
 display: grid;
 place-content: center;
-color: #fff;
+color: rgb(216, 255, 137);
 }  
+.carrousel_btn:hover {
+position: absolute;
+top: 50%;
+transform: translateY(-50%);
+width: 2rem;
+height: 2rem;
+background: rgb(216, 255, 137);
+border-radius: 50%;
+border-color: rgb(45, 45, 45);
+display: grid;
+place-content: center;
+color: rgb(45,45,45);
+}
 .carrousel_btn-avant {
 left: 0;
 }  
@@ -94,4 +107,5 @@ background-color: rgb(216, 255, 137);
 }
 .carrousel_lien, .carrousel_lien:hover{
 text-decoration: none;
+font-weight: bold;
 }
