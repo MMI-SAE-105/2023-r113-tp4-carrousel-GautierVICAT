@@ -17,7 +17,7 @@ div::-webkit-scrollbar {
 }
 div::-webkit-scrollbar-thumb {
     background: rgb(216,255,137);
-    border-radius: 15px;
+    border-radius: 20px;
 }
 a {
     color: rgb(216,255,137);
@@ -41,12 +41,16 @@ li {
     margin: 10px;
 }
 img {
-height: 100%;
-max-width: auto;
+height: auto;
+max-width: 100%;
+display: block;
+margin-left: auto;
+margin-right:auto;
 }
 .carrousel_parent-ecrans {
 display: flex;
 width: 100%;
+gap: 1rem;
 overflow-x: scroll;
 scroll-behavior: smooth;
 scroll-snap-type: mandatory;
@@ -55,6 +59,7 @@ scroll-snap-type: mandatory;
 .carrousel_ecran {
 width: 100%;
 scroll-snap-align: start;
+flex: none;
 }
 .carrousel_ecran figure {
 margin:none;
@@ -94,4 +99,8 @@ border-color: rgb(216,255,137);
 right: 0;
 color: rgb(216,255,137);
 border-color: rgb(216,255,137);
+}
+figcaption {
+text-align: center;
+padding: 5px;
 }
